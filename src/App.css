@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: #2b2c28;
+  color: white;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+form{
+  background: black;
+  color: aliceblue;
+  width: 17rem;
+}
+
+main{
+  border: 1px solid red;
+  height: (100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+}
